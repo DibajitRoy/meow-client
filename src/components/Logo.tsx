@@ -1,5 +1,5 @@
 
-const RATIO = 2.436;
+const RATIO = 2.877;
 
 type Props = {
   height?: number; 
@@ -18,7 +18,7 @@ export default function Logo({ height, className }: Props) {
       style={{
         width: Math.round(h * RATIO),
         height: h,
-        backgroundImage: "url(/images/logo-cropped.png)",
+        backgroundImage: "url(/images/logo-sharp.png)",
         backgroundSize: "100% auto",
         backgroundPosition: "center",
       }}
